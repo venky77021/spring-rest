@@ -12,6 +12,7 @@ class SpringRestApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Inside context Loads method......");
+		logger.info("Second time executing...");
 	}
 
 }
