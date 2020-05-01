@@ -15,6 +15,7 @@ public class SpringRestApplication {
 	@PostConstruct
 	public void init() {
 		logger.info("Inside Init method");
+		logger.info("Welcome to spring boot world");
 	}
 
 	public static void main(String[] args) {
