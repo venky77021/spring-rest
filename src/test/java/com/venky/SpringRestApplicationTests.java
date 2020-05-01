@@ -10,7 +10,7 @@ class SpringRestApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(SpringRestApplicationTests.class);
 
 	@Test
-	void contextLoads() {
+	 contextLoads() {
 		logger.info("Inside context Loads method......");
 		logger.info("Second time executing...");
 	}
